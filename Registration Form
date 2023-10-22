@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <link href="style1.css" rel="stylesheet">
+    <body>
+        <form action="Result.html">
+          <table>
+
+           <tr>
+             <td>Enter your name:</td> <td><input type="text" name="name" placeholder="Enter your name"></td>
+           </tr>
+          
+           <tr>
+             <td>Mobile number:</td> <td><input type="number" name="mobilenumber" placeholder="Skip +91"></td>
+           </tr>
+           
+           <tr>
+             <td>Email id:</td> <td><input type="email" name="email" placeholder="Enter your email"></td>
+           </tr>
+           
+           <tr>
+             <td>Course interested:</td>
+              <td>
+                <Select name="course">
+                   <option value="jfs">Java fullstack</option>
+                   <option value="at">Automation Testing</option>
+                </Select>
+              </td>
+           </tr>
+
+           <tr>
+            <td>Language known</td>
+            <td>
+              <input type="checkbox" name="languages" value="English" checked>English<br>
+              <input type="checkbox" name="languages" value="Hindi">Hindi<br>
+              <input type="checkbox" name="languages" value="Kannada">Kannada<br>
+              <input type="checkbox" name="languages" value="Khortha">Khortha
+            </td>
+           </tr>
+
+           <tr>
+            <td>
+             Are you a graduate:</td><td><input id="grade1" type="radio" name="graduate" value="yes"><label for="grade1">Yes</label>
+                                             <input id="grade2" type="radio" name="graduate" value="no"><label for="grade2">No</label> 
+             </td>
+           </tr>
+          
+           <tr>
+            <td>Give your valuable insight</td>
+            <td><textarea name="insights" rows="8" cols="50" required></textarea> </td>
+           </tr>
+
+           <tr>
+            <td>Enter password</td>
+            <td><input type="password" name="password" required></td>
+          </tr>
+
+          <tr>
+            <td>Confirm password</td>
+            <td><input type="password" name="cpassword" required></td>
+          </tr>
+
+          <tr>
+           <td> Already have an account?
+            <a href="Result.html"><input type="button" value="login"></a></td>
+            <td>
+              <input type="submit" value="Register me">
+            </td>
+          </tr>
+
+         </table>
+        </form> 
+
+        <a href="hotel.html">Visit website</a>
+    </body>
+</html>
